@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: inline-flex;
+  width: 100%;
+
+  background: tomato;
+}
+.navs {
+  background: peru;
+  color: white;
+}
+.navs-header {
+  width: 40%;
+  display: inline-flex;
+  margin-left: 50%;
+}
+.contain {
+  display: block;
+}
+.active {
+  border-bottom: 3px solid red;
+}
+@keyframes move {
+  from {
+    background: tomato;
+  }
+  to {
+    background: turquoise;
+  }
+}
+.nav-links {
+  text-align: center;
+  padding: 2em;
+  font-weight: bolder;
+}
+.navs-header a {
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+.navs-header a:hover {
+  background: chocolate;
+  animation-name: move;
+  animation-duration: 1s;
+}
+.brand-logo {
+  width: 27%;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-family: ar berkley;
+}

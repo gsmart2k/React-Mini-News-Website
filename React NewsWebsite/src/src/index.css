@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 3em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.blue-text {
+  color: blue;
+  font-size: 3em;
+}
+.pink-text {
+  color: pink;
+  font-size: 2em;
+}
+.black-text {
+  color: black;
+  font-size: 2em;
+}
+.orange-text {
+  color: orange;
+  font-size: 1em;
+}
+.wheat-text {
+  color: wheat;
+  font-size: 5em;
+}
+.title {
+  color: orange;
+  background: wheat;
+  padding: 1em;
+  border-bottom: black 2px solid;
+  font-weight: bolder;
+}
+.body {
+  color: black;
+  padding: 1em;
+  font-size: 2em;
+  border: 1px solid saddlebrown;
+}
+button {
+  padding: 1em;
+  background: salmon;
+  margin: 1em 1em 1em 0em;
+}
+.p-2 {
+  margin: 0.5em;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.image {
+  width: 20%;
+  position: absolute;
+  left: 0em;
+  max-width: 10em;
+  overflow: hidden;
+}

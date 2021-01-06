@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0em;
+    padding: 1em;
+    align-items: center;
+    box-shadow: 2px 2px 10px 0.5px black;
+  }
+}
+
+
+.individual-news {
+    background: #ccc;
+    padding: 1em;
+    margin: 0 1em 0 0;
+    max-width: 8em;
+    min-width: 8em;
+    max-height: 8em;
+    min-height: 8em;
+    overflow: visible;
+    box-shadow: 0px 1px 8px 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
